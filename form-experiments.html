@@ -1,0 +1,18 @@
+<head>
+  <title>form-experiments</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  {{#with item}}
+  	{{#with field 'name'}}
+  		name: {{value}}
+  		<input type="text">
+  	{{/with}}
+  {{/with}}
+</template>
