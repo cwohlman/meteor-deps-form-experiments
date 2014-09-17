@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "rules": {},
+      "schema": {}
+    },
+    "packages": {
+      "rules": {
+        "git": "https://github.com/cwohlman/meteor-validation-rules.git",
+        "tag": "v0.0.1",
+        "commit": "95074287aeaf3fc465e49129e7201e6d85005ef7"
+      },
+      "schema": {
+        "git": "https://github.com/cwohlman/meteor-validation-schema.git",
+        "tag": "v0.0.1",
+        "commit": "851938637bf48c3511c2a809ec9743f1c2de69ed"
+      }
+    }
+  }
+}
